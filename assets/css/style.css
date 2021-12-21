@@ -5,23 +5,77 @@ body {
     padding: 0;
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+
+/*líneas*/
+
+hr {
+    background-color: #17A3B8;
+}
+
+
+/*título principal*/
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 50px;
 }
 
 
 /*Navbar*/
 
-.navbar {
-    background-color: #25A0AD;
-    color: #ffffff;
-}
-
-.container-fluid img {
-    width: 25px
+.navbar-brand img {
+    width: 30px;
 }
 
 
-/*Contenido*/
+/*cards*/
 
-.row {
-    background-color: #000000;
+.card {
+    background-color: #17A3BB;
+}
+
+.card h5 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+/*Header*/
+
+header {
+    width: 100%;
+}
+
+
+/*contenido*/
+
+.fas {
+    background-color: #17A3B8;
+}
+
+
+/*Destacados Cards*/
+
+#Destacados {
+    width: 100%;
+}
+
+
+/*Footer*/
+
+#Footer {
+    width: 100vw;
+    background-color: #17A3B8;
+}
+
+#Footer h2 {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 50px;
+    text-decoration: none;
 }
